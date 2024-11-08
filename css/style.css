@@ -74,6 +74,11 @@ body {
     font-family: "Roboto", serif;
 }
 
+.col-left div i{
+    font-size: 80px;
+    padding: 60px 0 25px 25px;
+}
+
 /*----------------
     BUTTONS
 ------------------*/
@@ -104,6 +109,10 @@ body {
     color: #fff;
 }
 
+.col-left .btn-blue, .col-left > div{
+    margin-top: 40px;
+}
+
 /*----------------
     HEADER
 ------------------*/
@@ -117,11 +126,13 @@ header{
     position: sticky;
     top: 0;
     left: 0;
+    z-index: 999;
 }
 
 header li a{
     text-decoration: none;
     font-size: 25px;
+    color: black;
 }
 
 header li{
@@ -151,6 +162,36 @@ align-items: center;
 /*----------------
     MAIN
 ------------------*/
+
+main section:first-child{
+    background-color: #B4D0E6;
+}
+section .large-container h1{
+    font-size: 130px;
+    padding-top: 100px;
+}
+
+.container-section-1{
+    display: flex;
+    padding-top: 60px;
+    font-size: 26px;
+    line-height: 35px;
+}
+
+.col-left{
+    width: 30%;
+}
+
+.col-right{
+    width: 70%;
+    position: relative;
+}
+
+.col-right img{
+    width: 100%;
+    position: absolute;
+}
+
 
 /*----------------
     FOOTER
