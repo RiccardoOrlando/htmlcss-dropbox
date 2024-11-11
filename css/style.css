@@ -90,7 +90,9 @@ i{
 
 .margin-200{
     margin-top: 200px;
+    padding-bottom: 110px;
 }
+
 /*----------------
     TYPOGRAPHY
 ------------------*/
@@ -300,8 +302,12 @@ input[type=radio] {
     font-size: 15px;
 }
 
-#short-hr{
+.short-hr{
     width: 20%;
+}
+
+.short-hr-footer{
+    width: 10%;
 }
 
 .bottom-box{
@@ -382,3 +388,33 @@ input[type=radio] {
 /*----------------
     FOOTER
 ------------------*/
+footer{
+    background-color: black;
+    color: white;
+}
+
+.large-container .row{
+    justify-content: space-between;
+    padding-top: 90px;
+    padding-bottom: 60px;
+}
+
+.large-container .row li{
+    line-height: 35px;
+}
+
+.large-container .row h1{
+    padding-bottom: 20px;
+}
+
+.large-container .row a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-language{
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+    color: gray;
+}
