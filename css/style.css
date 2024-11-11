@@ -39,6 +39,7 @@ i{
     color: blue;
 }
 
+
 /*----------------
     LAYOUT
 ------------------*/
@@ -58,6 +59,7 @@ i{
 
 .row {
     display: flex;
+    margin-top: 70px;
 }
 
 .gap-10 {
@@ -86,6 +88,9 @@ i{
     margin-top: 30px;
 }
 
+.margin-200{
+    margin-top: 200px;
+}
 /*----------------
     TYPOGRAPHY
 ------------------*/
@@ -352,6 +357,26 @@ input[type=radio] {
     border: 1px solid ;
 }
 
+/*----------------
+    SECTION 3
+------------------*/
+
+.row img{
+    max-width: 100%;
+}
+
+.row h1{
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.row p{
+    line-height: 20px;
+}
+
+.margin-200 h1{
+    padding-bottom: 70px;
+}
 
 
 /*----------------
