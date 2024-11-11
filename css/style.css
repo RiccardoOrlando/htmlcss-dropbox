@@ -120,9 +120,9 @@ body {
     cursor: pointer;
 }
 
-.btn-large {
-    padding: 10px 10px;
+.col-left .btn-large {
     font-size: 16px;
+    padding: 13px 18px;
 }
 
 .contentbox .btn-large{
@@ -143,6 +143,7 @@ header .btn-blue{
     border: none;
     padding: 8px 16px;
     cursor: pointer;
+    font-weight: 300;
 }
 
 .btn-primary {
@@ -211,6 +212,7 @@ main section:first-child{
 section .large-container h1{
     font-size: 80px;
     padding-top: 100px;
+    font-weight: 800;
 }
 
 .container-section-1{
@@ -360,7 +362,9 @@ input[type=radio] {
 
 .partner-right .btn-large{
     background-color: white;
-    border: 1px solid ;
+    border: 1px solid;
+    font-size: 16px;
+    padding: 13px 18px;
 }
 
 /*----------------
